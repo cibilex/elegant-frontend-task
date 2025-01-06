@@ -1,0 +1,51 @@
+allUsers: Tüm kullanıcılar
+home: Ana Sayfa
+emptyTable: Veri bulunamadı.
+title: Adı
+country: Ülke
+hotels: Oteller
+users: Kullanıcılar
+active: Aktif
+passive: Passive
+status: Durum
+confirmToDeleteHotel: Bu oteli silmek istediğinizden emin misiniz?
+validationDate: Önay Tarihi
+price: Fiyat
+quantity: Miktar
+areYouSure: Emin misiniz?
+description: Açıklama
+website: Website
+userType: Kullanıcı tipi
+createdAt: Oluşturulma tarihi
+updatedAt: Güncelleme tarihi
+userTypes:
+  1: Admin
+  2: Kullanıcı
+goHome: Anasayfaya Dön
+signIn: Giriş Yap
+username: Kullanıcı Adı
+email: E-posta
+password: Şifre
+rememberMe: Beni Hatırla
+error: Hata
+sucess: Başarılı
+completed: İşlem tamamlandı
+signUp: Kayıt Ol
+buttons:
+  send: Gönder
+  cancel: İptal
+  submit: Gönder
+  createUser: Kullanıcı Oluştur
+  deleteUser: Kullanıcı sil
+  create: Oluştur
+  delete: Sil
+  createHotel: Otel Oluştur
+
+validations:
+  min: '{field} en az {minimum} karakter olmalıdır.'
+  max: '{field} en fazla {maximum} karakter olmalıdır.'
+  email: 'Geçerli bir e-posta adresi giriniz.'
+  required: '{field} zorunludur.'
+  minValue: '{field} en az {minimum}  olmalıdır.'
+  maxValue: '{field} en fazla {maximum}  olmalıdır.'
+  mail: Lütfen geçerli bir e-posta adresi giriniz.

@@ -1,0 +1,46 @@
+allUsers: All users
+home: Ana sayfa
+emptyTable: Data not found.
+title: Title
+country: Country
+hotels: Hotels
+users: Users
+active: Active
+passive: Passive
+status: Status
+confirmToDeleteHotel:  Are you sure you want to delete this hotel?
+validationDate: Validation Date
+areYouSure: Are you sure?
+userType: User type
+createdAt: Create date
+updatedAt: update date
+userTypes:
+  1: Admin
+  2: User
+goHome: Go Home
+signIn: Sign In
+username: Username
+email: Email
+password: Password
+rememberMe: Remember Me
+error: Error
+success: Success
+completed: Operation completed
+signUp: Sign Up
+buttons:
+  send: Send
+  cancel: Cancel
+  submit: Submit
+  createUser: Create User
+  deleteUser: Delete User
+  create: Create
+  delete: Delete
+  createHotel: Create Hotel
+validations:
+  min: '{field} must be at least {minimum} characters.'
+  max: '{field} must be at most {maximum} characters.'
+  email: 'Please enter a valid email address.'
+  required: '{field} is required.'
+  minValue: '{field} must be bigger than least {minimum} .'
+  maxValue: '{field} must be lesser  {maximum} characters.'
+  mail: Please enter a valid email.
