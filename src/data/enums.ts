@@ -1,5 +1,6 @@
 import { UserTypes } from '@/types/user.interface'
 import { CommonTableStatuses } from '@/types/common.types'
+import { RoomTypes } from '@/types/room.interface'
 export enum LocalItems {
   LANG = 'lng',
   THEME = 'thm',
@@ -15,6 +16,24 @@ export const languageModel = {
   tr: 'tr',
   en: 'gb',
 }
+
+export const roomTypes = [
+  {
+    v: RoomTypes.BASIC,
+    severity: 'secondary',
+    title: 'roomTypes.' + RoomTypes.BASIC,
+  },
+  {
+    v: RoomTypes.PREMIUM,
+    severity: 'info',
+    title: 'roomTypes.' + RoomTypes.PREMIUM,
+  },
+  {
+    v: RoomTypes.SUITE,
+    severity: 'success',
+    title: 'roomTypes.' + RoomTypes.SUITE,
+  },
+]
 
 export const commonStatuses = {
   [CommonTableStatuses.ACTIVE]: {

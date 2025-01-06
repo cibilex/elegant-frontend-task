@@ -2,7 +2,6 @@ import type { Base } from './base.interface'
 
 export interface Hotel extends Base {
   title: string
-  description: string
-  price: number
+  country: string
 }
-export type DenseBook = Pick<Hotel, 'id' | 'title' | 'price'>
+export type DenseHotel = Pick<Hotel, 'id' | 'title' | 'country'>

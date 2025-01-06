@@ -12,6 +12,10 @@
         :invalid="form[field]?.invalid"
         class="w-full"
       >
+        <template v-if="slots.value" #value="slotProps">
+          <slot name="value" :slotProps />
+        </template>
+
         <template #option="{ option }">
           <slot name="option" :option />
         </template>
@@ -35,7 +39,10 @@ import { type ModelRef } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { v4 } from 'uuid'
 const uniqueId = v4()
-
+const slots = defineSlots<{
+  value?: any
+  option?: any
+}>()
 const model = defineModel() as ModelRef<number>
 withDefaults(
   defineProps<{

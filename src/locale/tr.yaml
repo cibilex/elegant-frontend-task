@@ -3,12 +3,16 @@ home: Ana Sayfa
 emptyTable: Veri bulunamadı.
 title: Adı
 country: Ülke
+roomType: Oda Tipi
+hotel: Otel
+rooms: Odalar
 hotels: Oteller
 users: Kullanıcılar
 active: Aktif
 passive: Passive
 status: Durum
 confirmToDeleteHotel: Bu oteli silmek istediğinizden emin misiniz?
+confirmToDeleteRoom: Bu odayı silmek istediğinizden emin misiniz?
 validationDate: Önay Tarihi
 price: Fiyat
 quantity: Miktar
@@ -40,6 +44,7 @@ buttons:
   create: Oluştur
   delete: Sil
   createHotel: Otel Oluştur
+  createRoom: Oda Oluştur
 
 validations:
   min: '{field} en az {minimum} karakter olmalıdır.'
@@ -49,3 +54,7 @@ validations:
   minValue: '{field} en az {minimum}  olmalıdır.'
   maxValue: '{field} en fazla {maximum}  olmalıdır.'
   mail: Lütfen geçerli bir e-posta adresi giriniz.
+roomTypes:
+  1: Standart
+  2: VIP
+  3: Suit

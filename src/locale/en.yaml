@@ -3,12 +3,16 @@ home: Ana sayfa
 emptyTable: Data not found.
 title: Title
 country: Country
+hotel: Hotel
+roomType: Room type
+rooms: Rooms
 hotels: Hotels
 users: Users
 active: Active
 passive: Passive
 status: Status
-confirmToDeleteHotel:  Are you sure you want to delete this hotel?
+confirmToDeleteHotel: Are you sure you want to delete this hotel?
+confirmToDeleteRoom: Are you sure you want to delete this room?
 validationDate: Validation Date
 areYouSure: Are you sure?
 userType: User type
@@ -36,6 +40,7 @@ buttons:
   create: Create
   delete: Delete
   createHotel: Create Hotel
+  createRoom: Create Room
 validations:
   min: '{field} must be at least {minimum} characters.'
   max: '{field} must be at most {maximum} characters.'
@@ -44,3 +49,7 @@ validations:
   minValue: '{field} must be bigger than least {minimum} .'
   maxValue: '{field} must be lesser  {maximum} characters.'
   mail: Please enter a valid email.
+roomTypes:
+  1: Standart
+  2: VIP
+  3: SUITE
